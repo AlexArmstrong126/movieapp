@@ -13,27 +13,27 @@ export const Footer = () => {
           {" "}
           <div className="logo">
             <img src={logo} alt="" />
-            <Link to="/">tMovies</Link>
+            <Link to="/movieapp">Movie App</Link>
           </div>
         </div>
       </div>
       <div className="footer_content_menus">
         <div className="footer_content_menu">
-          <Link to="/"> Home</Link>
-          <Link to="/"> Cotnact Us</Link>
-          <Link to="/"> Terms of Service</Link>
-          <Link to="/"> About Us</Link>
+          <Link to="/movieapp"> Home</Link>
+          <Link to="/movieapp"> Cotnact Us</Link>
+          <Link to="/movieapp"> Terms of Service</Link>
+          <Link to="/movieapp"> About Us</Link>
         </div>
         <div className="footer_content_menu">
-          <Link to="/"> Live</Link>
-          <Link to="/"> FAQ Us</Link>
-          <Link to="/"> Premium</Link>
-          <Link to="/"> Privacy Policy</Link>
+          <Link to="/movieapp"> Live</Link>
+          <Link to="/movieapp"> FAQ Us</Link>
+          <Link to="/movieapp"> Premium</Link>
+          <Link to="/movieapp"> Privacy Policy</Link>
         </div>
         <div className="footer_content_menu">
-          <Link to="/"> Must Watch</Link>
-          <Link to="/"> Recent Releases</Link>
-          <Link to="/"> Top IMDB</Link>
+          <Link to="/movieapp"> Must Watch</Link>
+          <Link to="/movieapp"> Recent Releases</Link>
+          <Link to="/movieapp"> Top IMDB</Link>
         </div>
       </div>
     </div>

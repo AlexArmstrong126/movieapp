@@ -7,10 +7,10 @@ import { Detail } from "../pages//detail/detail";
 export const RouterConfig = () => {
   return (
     <Switch>
+      <Route path="/movieapp" exact component={Home} />
       <Route path="/:category/search/:keyword" component={Catalog} />
       <Route path="/:category/:id" component={Detail} />
       <Route path="/:category" component={Catalog} />
-      <Route path="/movieapp/" component={Home} />
     </Switch>
   );
 };

@@ -6,7 +6,7 @@ import logo from "../../assets/movie-icon.jpeg";
 const headerNav = [
   {
     display: "Home",
-    path: "/",
+    path: "/movieapp",
   },
   {
     display: "Movies",
@@ -49,7 +49,7 @@ export function Header() {
       <div className="header_wrap container">
         <div className="logo">
           <img src={logo} alt="" />
-          <Link to="/">Movie App</Link>
+          <Link to="/movieapp">Movie App</Link>
         </div>
         <ul className="header_nav">
           {headerNav.map((e, i) => (
